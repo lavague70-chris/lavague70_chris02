@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>크리스의 여행노트</title>
+  <meta name="description" content="크리스가 다녀온 곳을 기록합니다 — 유럽 · 북미 · 남미 · 아시아">
+
+  <!-- 카톡·SNS 공유 미리보기 (OG 태그) — 주소는 꼭 전체 주소로 -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lavague70-chris.github.io/lavague70_chris02/">
+  <meta property="og:title" content="크리스의 여행노트">
+  <meta property="og:description" content="크리스가 다녀온 곳을 기록합니다 — 유럽 · 북미 · 남미 · 아시아">
+  <meta property="og:image" content="https://lavague70-chris.github.io/lavague70_chris02/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- 홈화면 설치 (PWA) -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#F7F4EE">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="여행노트">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <!-- 디자인을 고치면 ?v= 숫자를 올려주세요 (브라우저가 새 파일을 받도록) -->
+  <link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+  <header class="top">
+    <a href="#" class="brand">크리스의 <span>여행노트</span></a>
+    <p class="tagline">다녀온 곳, 기억하고 싶은 순간들 ✈️</p>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="foot">
+    <button id="installBtn" class="install-btn" hidden>📲 홈화면에 앱으로 설치</button>
+    <details class="howto">
+      <summary>홈화면에 추가하는 방법</summary>
+      <div id="howtoBody"></div>
+    </details>
+    <p class="copy">© 크리스의 여행노트</p>
+  </footer>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>

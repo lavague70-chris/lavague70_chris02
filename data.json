@@ -1,0 +1,89 @@
+{
+  "categories": [
+    {
+      "id": "europe",
+      "name": "유럽",
+      "emoji": "🏰",
+      "desc": "성당과 골목, 기차 여행",
+      "subs": [
+        { "id": "west", "name": "서유럽" },
+        { "id": "east", "name": "동유럽" },
+        { "id": "north", "name": "북유럽" }
+      ]
+    },
+    {
+      "id": "namerica",
+      "name": "북미",
+      "emoji": "🗽",
+      "desc": "넓은 자연과 큰 도시",
+      "subs": [
+        { "id": "canada", "name": "캐나다" },
+        { "id": "usa", "name": "미국" },
+        { "id": "hawaii", "name": "하와이" },
+        { "id": "mexico", "name": "멕시코" }
+      ]
+    },
+    {
+      "id": "samerica",
+      "name": "남미",
+      "emoji": "🦙",
+      "desc": "뜨거운 햇살과 색깔 있는 거리",
+      "subs": []
+    },
+    {
+      "id": "asia",
+      "name": "아시아",
+      "emoji": "🏯",
+      "desc": "가까워서 자주 가는 곳",
+      "subs": [
+        { "id": "thailand", "name": "태국" },
+        { "id": "hongkong", "name": "홍콩" },
+        { "id": "taiwan", "name": "대만" },
+        { "id": "china", "name": "중국" },
+        { "id": "singapore", "name": "싱가폴" }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "category": "europe",
+      "sub": "west",
+      "title": "(예시) 파리 에펠탑 야경",
+      "memo": "정각마다 반짝이는 조명 쇼. 여행 기록을 올리면 이 예시는 지워요.",
+      "link": "",
+      "image": "",
+      "video": "",
+      "date": "2026-10-31"
+    },
+    {
+      "category": "namerica",
+      "sub": "canada",
+      "title": "(예시) 밴쿠버 스탠리 공원",
+      "memo": "자전거로 한 바퀴. 바다와 숲이 같이 보여요.",
+      "link": "",
+      "image": "",
+      "video": "",
+      "date": "2026-10-31"
+    },
+    {
+      "category": "namerica",
+      "sub": "mexico",
+      "title": "(예시) 멕시코시티 타코 맛집",
+      "memo": "길거리 타코 한 접시에 2천 원.",
+      "link": "",
+      "image": "",
+      "video": "",
+      "date": "2026-10-31"
+    },
+    {
+      "category": "asia",
+      "sub": "taiwan",
+      "title": "(예시) 타이베이 야시장",
+      "memo": "지파이와 버블티는 꼭!",
+      "link": "",
+      "image": "",
+      "video": "",
+      "date": "2026-10-31"
+    }
+  ]
+}
